@@ -78,7 +78,7 @@ h1 {
 }
 
 h1 strong {
-    color: #026fff;
+    color: #FD3D67;
 }
 
 h2 {
@@ -93,7 +93,7 @@ h2 {
 .hero {
     height: 300px;
     /* background-image: url('../images/hero.jpg'); */
-    background-color: #1b2127;
+    background-color: #186DD1;
     /* background-size: 500px 300px; */
     /* background-repeat: no-repeat; */
     /* background-position-x: right; */
@@ -175,7 +175,7 @@ h2 {
 }
 
 .header {
-    background-color: #1b2127; 
+    background-color: #0C0471; 
     color: white;
     display: flex;
     height: 70px;
@@ -237,7 +237,7 @@ figure {
 
 .footer {
     color: white;
-    background-color: #1b2127;
+    background-color: #0C0471;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -299,7 +299,7 @@ figure {
 }
 
 .contact {
-    background-color: #056fff;
+    background-color: #186DD1;
     color: white;
     height: 150px;
     display: flex;
