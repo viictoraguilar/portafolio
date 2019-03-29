@@ -7,7 +7,6 @@
     <title>Portafolio | Víctor Aguilar</title>
     <link rel="icon" type="image/png" href="images/favicon.png">
     <link href="https://fonts.googleapis.com/css?family=Fjalla+One|Source+Sans+Pro" rel="stylesheet">
-    <!-- <link rel="stylesheet" href="css/media.css" media="screen and (max-width: 768px)"> -->
     <link rel="stylesheet" href="css/estilos.css">
 </head>
 <body>
@@ -24,7 +23,7 @@
                       <a class="link" href="#portafolio">Portafolio</a>
                   </li>
                   <li>
-                       <a class="link" href="#eventos">Experiencia</a>
+                       <a class="link" href="#experiencia">Experiencia</a>
                    </li>
                    <li>
                       <a class="link" href="#contacto">Trabajemos juntos</a>
@@ -147,7 +146,7 @@
         <h2 class="event-list-title">Más sobre mi experiencia</h2>
     </div>
      
-    <section id="eventos" class="event-list">
+    <section id="experiencia" class="event-list">
         <div class="container">
             <article class="event">
                <figure class="event-imageContainer">
@@ -237,15 +236,11 @@
         </div>
     </footer> 
     <script>
-        //console.log('hola mundo');
         console.log();
         const ipad = window.matchMedia('screen and (max-width: 767px)')
         const menu = document.querySelector('.menu');
-        //console.log(menu);
         const burguerButton = document.querySelector('#burguer-menu');
-        //console.log(burguerButton);
-
-
+       
         ipad.addListener(validation)
 
         function validation (event) {
