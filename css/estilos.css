@@ -78,11 +78,11 @@ h1 {
 }
 
 h1 strong {
-    color: #FD3D67;
+    color: #FD3D67  ;
 }
 
 h2 {
-    color: #026fff;
+    color: #FD3D67;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -172,6 +172,7 @@ h2 {
 
 .project-imageContainer img {
     max-width: 100%;
+    border: solid 1px #186DD1; 
 }
 
 .header {
@@ -242,6 +243,7 @@ figure {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
+    padding: 15px 15px;
 }
 
 .footer img {
@@ -306,7 +308,7 @@ figure {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 10px;
+    padding: 15px;
 }
 
 .social {
@@ -492,7 +494,7 @@ figure {
 
     .menu {
         position: fixed;
-        background: rgba(5, 111, 255, .9);
+        background:rgba(24,109,209,.8);
         z-index: 3;
         top: 0;
         left: -100vw;
