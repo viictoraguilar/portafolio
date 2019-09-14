@@ -59,11 +59,11 @@ h1 {
 }
 
 h1 strong {
-    color: #FD3D67  ;
+    color: yellowgreen;
 }
 
 h2 {
-    color: #FD3D67;
+    color: yellowgreen;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
