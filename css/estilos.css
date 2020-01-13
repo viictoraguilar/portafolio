@@ -51,7 +51,7 @@ h1 {
     font-size: 40px;
     line-height: 1.5;
     letter-spacing: -.2px;
-    color: white;
+    color: darkorange   ;
     margin: 0;
     /*margin: 100px 150px 70px 30x;*/
     /*text-transform: uppercase;
@@ -59,11 +59,11 @@ h1 {
 }
 
 h1 strong {
-    color: #ff6961;
+    color: #BE0532;
 }
 
 h2 {
-    color: yellowgreen;
+    color: #BE0532;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -74,7 +74,7 @@ h2 {
 .hero {
     height: 300px;
     /* background-image: url('../images/hero.jpg'); */
-    background-color: #186DD1;
+    background-color:wheat;
     /* background-size: 500px 300px; */
     /* background-repeat: no-repeat; */
     /* background-position-x: right; */
@@ -90,7 +90,7 @@ h2 {
 }
 
 .portfolio {
-    background: #fafafa;
+    background: white;
     padding: 20px;
 }
 
@@ -145,7 +145,7 @@ h2 {
 }
 
 .header {
-    background-color: #0C0471; 
+    background-color: rgb(26, 22, 22); 
     color: white;
     display: flex;
     height: 70px;
@@ -207,7 +207,7 @@ figure {
 
 .footer {
     color: white;
-    background-color: #0C0471;
+    background-color: rgb(26, 22, 22);
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -271,8 +271,8 @@ figure {
 }
 
 .contact {
-    background-color: #186DD1;
-    color: white;
+    background-color: wheat;
+    color: #BE0532;
     height: 150px;
     display: flex;
     align-items: center;
@@ -427,7 +427,7 @@ figure {
     position: relative;
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 768px) {
     h2 {
         font-size: 1.2em;
         margin: .5em;
@@ -527,6 +527,10 @@ figure {
 
     .event img {
         width: 100%;
+    }
+
+    .portfolio {
+        padding: 20px;
     }
 }
 
