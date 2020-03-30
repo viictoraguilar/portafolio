@@ -171,6 +171,12 @@ figure {
     text-decoration: none;
 }
 
+.header a:hover {
+    background-color: #F0B949;
+    
+}
+
+
 .menu {
     height: inherit;
 }
