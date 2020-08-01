@@ -60,11 +60,11 @@ h1 {
 }
 
 h1 strong {
-    color: #BE0532;
+    color: #F20732;
 }
 
 h2 {
-    color: #BE0532;
+    color: #F20732;
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
@@ -75,7 +75,7 @@ h2 {
 .hero {
     height: 300px;
     /* background-image: url('../images/hero.jpg'); */
-    background-color:#F0B949;
+    background-color:#056CF2;
     /* background-size: 500px 300px; */
     /* background-repeat: no-repeat; */
     /* background-position-x: right; */
@@ -146,7 +146,7 @@ h2 {
 }
 
 .header {
-    background-color: #004F6E; 
+    background-color: #07038C; 
     color: white;
     display: flex;
     height: 70px;
@@ -169,11 +169,11 @@ figure {
 .header a {
     color: white;
     text-decoration: none;
+    font-weight: bold;
 }
 
 .header a:hover {
-    background-color: #F0B949;
-    
+    background-color: #056CF2;
 }
 
 
@@ -214,7 +214,7 @@ figure {
 
 .footer {
     color: white;
-    background-color: #004F6E;
+    background-color: #07038C;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -278,8 +278,8 @@ figure {
 }
 
 .contact {
-    background-color: #F0B949;
-    color: #BE0532;
+    background-color: #056CF2;
+    color: #F20732;
     height: 150px;
     display: flex;
     align-items: center;
@@ -330,8 +330,9 @@ figure {
 .form-email button {
     display: block;
     margin-top: 10px;
-    background: transparent;
-    color: white;
+    background: white;
+    color: gray;
+    font-weight: bolder;
     padding: 10px 0;
     border-radius: 5px;
     width: 100px;
@@ -341,6 +342,10 @@ figure {
 
 .form-email h3 {
     font-family: 'Source Sans Pro', sans-serif;
+    color: #F20732;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    text-transform: uppercase;
 }
 
 .container {
