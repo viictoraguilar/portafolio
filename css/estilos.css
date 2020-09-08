@@ -226,8 +226,17 @@ figure {
     vertical-align: middle;
 }
 
+.footer .container .container-whatsapp {
+    background-color: white;
+    overflow: hidden;
+}
+
 .footer a {
-    color: white;
+}
+
+.footer a i{
+    color: #00E676;
+    font-size: 2em;
 }
 
 .event-list {
